@@ -1,0 +1,24 @@
+'''
+
+                            Online Python Compiler.
+                Code, Compile, Run and Debug python program online.
+Write your code in this editor and press "Run" button to execute it.
+
+'''
+
+def is_leap(n):
+    if year%4==0 and year%100!=0 or year%400==0:
+        return True
+    else:
+        return False
+year=int(input())
+print(is_leap(year))
+
+output:
+
+1990
+False
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
